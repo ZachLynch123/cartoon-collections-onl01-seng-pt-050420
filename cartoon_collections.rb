@@ -8,7 +8,8 @@ def roll_call_dwarves(collection)
 end
 
 def summon_captain_planet(collection)
-  collection.map{ |element|
+  collection.map{ |element| element.capitalize() element.push("
+  !")}
 end
 
 def long_planeteer_calls# code an argument here
