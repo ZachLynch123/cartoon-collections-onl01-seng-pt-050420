@@ -23,9 +23,9 @@ def long_planeteer_calls(calls)
     word.length > 4}
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese(snacc)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  
 end
 
 long_planeteer_calls(["two", "go", "industrious", "bop"])
