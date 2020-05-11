@@ -29,7 +29,7 @@ def find_the_cheese(snacc)
   while i < snacc.length
     if snacc.include?(cheese_types)
       i +=1 
-      return cheese_types
+      return snacc[i]
     else
       i += 1
       return nil
