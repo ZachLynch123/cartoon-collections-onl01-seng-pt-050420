@@ -10,9 +10,9 @@ end
 def summon_captain_planet(collection)
   new_collection = []
   collection.map{ |element 
-    new_collection << element.capitalize()
+    element.capitalize()
   }
-  new_collection
+  collection
 end
 
 def long_planeteer_calls# code an argument here
