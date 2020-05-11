@@ -30,6 +30,7 @@ def find_the_cheese(snacc)
      return cheese
    else
      return nil
+   end
   }
 end
 
