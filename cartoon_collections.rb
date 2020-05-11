@@ -25,17 +25,7 @@ end
 
 def find_the_cheese(snacc)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  i = 0 
-  while i < snacc.length
-    if cheese_types.in?(snacc)
-      x = 
-      i +=1 
-      return cheese_types[i] 
-    else
-      i += 1
-      return nil
-    end
-  end
+  if cheese
 end
 
 find_the_cheese(["tomato soup", "cheddar", "oyster crackers", "gouda"])
