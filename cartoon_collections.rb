@@ -25,7 +25,8 @@ end
 
 def find_the_cheese(snacc)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  snacc.include?(cheese_types)
+  cheese_types.each |word| do 
+    snacc.include?(word)
 end
 
 long_planeteer_calls(["two", "go", "industrious", "bop"])
