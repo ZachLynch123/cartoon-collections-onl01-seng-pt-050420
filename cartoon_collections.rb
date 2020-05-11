@@ -19,7 +19,8 @@ def summon_captain_planet(collection)
 end
 
 def long_planeteer_calls(calls)
-  calls.all?{
+  calls.all?{ |word|
+    
     
   }
 end
