@@ -2,7 +2,7 @@ def roll_call_dwarves(collection)
   
   i = 0 
   while i < collection.length 
-    puts collection[i]
+    puts "#{i+1}. #{collection[i]}"
     i += 1 
   end
 end
