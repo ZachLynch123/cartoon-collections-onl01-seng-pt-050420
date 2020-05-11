@@ -32,4 +32,4 @@ def find_the_cheese(snacc)
   end
 end
 
-find_the_cheese(["two", "go", "industrious", "bop"])
+find_the_cheese(["tomato soup", "cheddar", "oyster crackers", "gouda"])
