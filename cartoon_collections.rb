@@ -7,7 +7,7 @@ def roll_call_dwarves(collection)
   end
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(collection)
   # Your code here
 end
 
