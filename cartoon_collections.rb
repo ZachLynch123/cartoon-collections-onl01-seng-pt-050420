@@ -33,6 +33,7 @@ def find_the_cheese(snacc)
     else
       i += 1
       return nil
+    end
 end
 
 find_the_cheese(["tomato soup", "cheddar", "oyster crackers", "gouda"])
