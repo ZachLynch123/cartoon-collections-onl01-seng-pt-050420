@@ -11,7 +11,7 @@ def summon_captain_planet(collection)
   new_collection = []
   collection.map{ |element| 
     element.capitalize()
-    puts element.push("!")
+    element << "!"
   }
   collection.inspect
 end
