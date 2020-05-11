@@ -9,8 +9,9 @@ end
 
 def summon_captain_planet(collection)
   new_collection = []
-  collection.map{ |element| element.capitalize() element.push("
-  !") new_collection << element}
+  collection.map{ |element 
+    new_collection << element.capitalize()
+  }
   new_collection
 end
 
