@@ -28,4 +28,4 @@ def find_the_cheese# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
 
-long_planeteer_calls()
+long_planeteer_calls(["two", "go", "industrious", "bop"])
