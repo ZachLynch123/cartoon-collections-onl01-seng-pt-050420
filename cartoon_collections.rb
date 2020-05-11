@@ -24,4 +24,4 @@ def find_the_cheese# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
 
-summon_captain_planet(["Earth!", "Wind!", "Fire!", "Water!", "Heart!"])
+summon_captain_planet(["earth", "wind", "fire", "water", "heart"])
