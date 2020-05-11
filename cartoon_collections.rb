@@ -1,5 +1,10 @@
 def roll_call_dwarves(collection)
-  # Your code here
+  
+  i = 0 
+  while i < collection.length 
+    puts collection[i]
+    i += 1 
+  end
 end
 
 def summon_captain_planet# code an argument here
