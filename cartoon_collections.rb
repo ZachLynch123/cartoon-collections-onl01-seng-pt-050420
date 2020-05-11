@@ -26,7 +26,7 @@ end
 def find_the_cheese(snacc)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types.map{ |cheese|
-   if cheese.in?(snacc)
+   if snacc.include?(cheese)
      return cheese
    else
      return nil
