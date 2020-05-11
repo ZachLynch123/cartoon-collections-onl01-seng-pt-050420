@@ -28,8 +28,10 @@ def find_the_cheese(snacc)
   i = 0 
   while i < snacc.length
     if snacc.inclde?(cheese_types[i])
+      i +=1 
       return true 
     else
+      i += 1
       return nil
 end
 
