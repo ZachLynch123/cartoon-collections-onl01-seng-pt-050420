@@ -25,7 +25,11 @@ end
 
 def find_the_cheese(snacc)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  
+  i = 0 
+  while i < snacc.length
+    snacc.include?(cheese_types[i])
+    i += 1 
+  end
 end
 
 long_planeteer_calls(["two", "go", "industrious", "bop"])
